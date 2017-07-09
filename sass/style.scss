@@ -1,13 +1,57 @@
-header{
+/*****************************
+    01 - RESET DEFAULT STYLES
+*****************************/
+html,
+body,
+ul,
+li,
+div,
+a,
+ol,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+/*****************************
+    02 - BASIC STYLES
+*****************************/
+.container {
+    max-width: 960px;
     margin: auto;
-    h1{
-        font-size: 28px;
+    position: relative;
+}
+
+/*****************************
+    03 - HEADER
+*****************************/
+header{
+    margin-top: 25px;
+}
+
+.menu-left{
+    float: left;
+   
+    .img{
+         float: left;
+        display: inline-block;
     }
-    p{
-        font-size: 14px;
-        color: red;
+    span{
+      float: left;
+        display: inline-block;
     }
-    h1,p{
-        line-height: 1.2em;
+    
+    
+}
+
+.menu-right{
+    float: right;
+    li{
+         display: inline-block;
     }
 }
