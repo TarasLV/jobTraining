@@ -1,0 +1,13 @@
+header {
+  margin: auto;
+}
+header h1 {
+  font-size: 28px;
+}
+header p {
+  font-size: 14px;
+  color: red;
+}
+header h1, header p {
+  line-height: 1.2em;
+}
